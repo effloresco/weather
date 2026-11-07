@@ -27,6 +27,8 @@ export function Login() {
 
     Cookies.set('isAuthenticated', 'true', { expires: 1 });
     Cookies.set('username', login, { expires: 1 });
+
+    navigate('/dashboard');
   };
 
   return (
