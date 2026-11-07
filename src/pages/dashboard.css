@@ -1,0 +1,80 @@
+.dashboard-container {
+  padding: 40px;
+  font-family: sans-serif;
+  background: #f8f9fa;
+  min-height: 100vh;
+}
+
+.dashboard-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  background: #abbccc;
+  padding: 25px;
+  color: #251f5f;
+  border-radius: 15px;
+}
+
+.dashboard-city-title {
+  width: 100%;
+  font-size: 32px;
+  margin: 0;
+  text-align: left;
+  color: #251f5f;
+  border-radius: 10px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.dashboard-title {
+  font-size: 30px;
+  margin: 20px;
+  font-weight: 400;
+}
+
+.dashboard-weather-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.dashboard-loader {
+  font-size: 18px;
+  font-weight: bold;
+  color: #555;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.dashboard-logout-btn {
+  padding: 10px 20px;
+  cursor: pointer;
+  background: #dc3545;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+}
+
+.dashboard-logout-btn:hover {
+  background: #bb2d3b;
+}
+
+.dashboard-current-card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.dashboard-current-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  padding: 20px;
+  gap: 10px;
+  margin-top: 10px;
+}
